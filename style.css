@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
 }
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7)), url(amongus.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
 
 nav {
     width: 100%;
@@ -18,23 +26,23 @@ nav p {
 }
 
 nav ul {
-    float: left;
+    float:left;
+    
 }
 
 nav ul li {
     float: left;
     list-style: none;
-    position: relative;
-    
+    position:relative;    
 }
 
 nav ul li a {
     display: block;
-    font-family: arial;
-    color: #222;
-    font-size: 14px;
-    padding: 22px 14px;
-    text-decoration: none;
+    /* font-family: arial; */
+    /* color: #222; */
+    /* font-size: 14px; */
+    padding: 5px 5px;
+    /* text-decoration:none; */
 }
 
 nav ul li ul {
